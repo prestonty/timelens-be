@@ -1,0 +1,310 @@
+[
+    {
+      "id": 1,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "BOTTOM",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Bottom.001.glb",
+      "description": "Long pants"
+    },
+    {
+      "id": 2,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "BOTTOM",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Bottom.002.glb",
+      "description": "Short pants"
+    },
+    {
+      "id": 3,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "BOTTOM",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Bottom.003.glb",
+      "description": "A short skirt that flares outwards"
+    },
+    {
+      "id": 4,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "TIE",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Bow.002.glb",
+      "description": "A formal tie"
+    },
+    {
+      "id": 5,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYEBROW",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/EyeBrow.008.glb",
+      "description": "Neutral eyebrows"
+    },
+    {
+      "id": 6,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.001.glb",
+      "description": "Generic eyes"
+    },
+    {
+      "id": 8,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.002.glb",
+      "description": "Eyes with distinct mascara"
+    },
+    {
+      "id": 9,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.003.glb",
+      "description": "Eyes with a little bit of mascara"
+    },
+    {
+      "id": 10,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.004.glb",
+      "description": "Slightly longer generic eyes"
+    },
+    {
+      "id": 11,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.005.glb",
+      "description": "Narrowed eyes, seems upset"
+    },
+    {
+      "id": 12,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.006.glb",
+      "description": "Squinted smiling eyes"
+    },
+    {
+      "id": 13,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.007.glb",
+      "description": "Squinted sad or tired eyes"
+    },
+    {
+      "id": 14,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.008.glb",
+      "description": "Cute child-like squinted eyes that are happy"
+    },
+    {
+      "id": 15,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "EYES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Eyes.009.glb",
+      "description": "Dizzy or confused eyes like spirals"
+    },
+    {
+      "id": 16,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.001.glb",
+      "description": "Horseshoe mustache"
+    },
+    {
+      "id": 17,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.002.glb",
+      "description": "English mustache"
+    },
+    {
+      "id": 18,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.003.glb",
+      "description": "Mustache and beard"
+    },
+    {
+      "id": 19,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.004.glb",
+      "description": "Hungarian mustache"
+    },
+    {
+      "id": 20,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.005.glb",
+      "description": "Walrus mustache"
+    },
+    {
+      "id": 21,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.006.glb",
+      "description": "Handlebar mustache"
+    },
+    {
+      "id": 22,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "FACIALHAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/FacialHair.007.glb",
+      "description": "Petite handlebar mustache"
+    },
+    {
+      "id": 23,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "GLASSES",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Glasses.004.glb",
+      "description": "Glasses"
+    },
+    {
+      "id": 24,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.001.glb",
+      "description": "Generic short hairstyle for males"
+    },
+    {
+      "id": 25,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.002.glb",
+      "description": "Short, slick back male hairstyle, exposing the forehead"
+    },
+    {
+      "id": 26,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.003.glb",
+      "description": "Buzz cut"
+    },
+    {
+      "id": 27,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.004.glb",
+      "description": "Slightly longer hairstyle for boys, covering the forehead, slightly emo"
+    },
+    {
+      "id": 28,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.005.glb",
+      "description": "Slightly longer hairstyle for boys, covering the forehead, more boyish"
+    },
+    {
+      "id": 29,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.006.glb",
+      "description": "Mid-length hairstyle for women, with bangs"
+    },
+    {
+      "id": 30,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.007.glb",
+      "description": "Curtain bangs and a high bun"
+    },
+    {
+      "id": 31,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.008.glb",
+      "description": "Curtain bangs and two space buns"
+    },
+    {
+      "id": 32,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.009.glb",
+      "description": "Short hairstyle for men with thicker hair"
+    },
+    {
+      "id": 33,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.010.glb",
+      "description": "Short hairstyle for women, similar to a shag"
+    },
+    {
+      "id": 34,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAIR",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hair.011.glb",
+      "description": "Bangs and a ponytail tied with a bow"
+    },
+    {
+      "id": 35,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.001.glb",
+      "description": "Crown"
+    },
+    {
+      "id": 36,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.002.glb",
+      "description": "Baseball cap"
+    },
+    {
+      "id": 37,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.003.glb",
+      "description": "Santa hat"
+    },
+    {
+      "id": 38,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.004.glb",
+      "description": "Tall magician style hat"
+    },
+    {
+      "id": 39,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.005.glb",
+      "description": "Pirate hat"
+    },
+    {
+      "id": 40,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HAT",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Hat.006.glb",
+      "description": "Wireless headphones"
+    },
+    {
+      "id": 41,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "HEAD",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Head.001.glb",
+      "description": "Face with mouth"
+    },
+    {
+      "id": 42,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "NOSE",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Nose.002.glb",
+      "description": "A normal Nose"
+    },
+    {
+      "id": 43,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "TOP",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Top.001.glb",
+      "description": "Long sleeve shirt"
+    },
+    {
+      "id": 44,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "TOP",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Top.002.glb",
+      "description": "Short sleeve shirt"
+    },
+    {
+      "id": 45,
+      "created_at": "2025-01-18 19:14:09+00",
+      "component": "TOP",
+      "url": "https://iwohhqwngzhfdetoybfw.supabase.co/storage/v1/object/public/avatar_customization/Top.002.glb",
+      "description": "Sleeveless shirt with a slight flair at the bottom similar to a dress"
+    }
+  ]
