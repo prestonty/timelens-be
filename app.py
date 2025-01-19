@@ -183,12 +183,14 @@ def chat():
 
 # Generate more of the story based on persona id and user input
 @app.route("/api/chatWithUser", methods=['GET', 'POST'])
-def generation(): 
+def generation():
 
     # part of story is already made 
-    persona_id = request.args.get("persona_id") # persona id
-    input = request.args.get("input")
+    data = request.get_json()
+    persona_id = data.get("persona_id") # persona id
+    input = data.get("input")
     
+
 
     chat_history_start = ""
 
@@ -231,11 +233,12 @@ def generation():
             stream=True,
         )
 
+        answer = ""
         for chunk in stream:
             if chunk.choices[0].delta.content is not None:
-                yield(chunk.choice[0].delta.content)
+                answer += chunk.choices[0].delta.content
 
-        return generation(), {"Content-Type": "text/plain"}
+        return answer
             
     # since the user's questions are not part of the story, do not add to history
     # return jsonify({"content": story})
@@ -250,7 +253,7 @@ def generate_character():
         data = request.get_json()
         character_name = data.get("character_name")
         event_name = data.get("event_name")
-
+    
         if not character_name or not event_name:
             return jsonify({"error": "Character name and event name are required"}), 400
 
@@ -288,20 +291,30 @@ def generate_character():
         )
 
         result = ""
+
         for chunk in response:
             if chunk.choices[0].delta.content is not None:
                 result += chunk.choices[0].delta.content
 
-        selected_ids = json.loads(result)  # Expecting OpenAI to return a JSON array of IDs
+        selected_ids = json.loads(result)  
 
-        # Return the array of IDs to the frontend
-        return jsonify(selected_ids)
+        selected_urls = []
+        for id in selected_ids:
+            response = supabase.table("avatar_assets").select("url").eq("id", id).execute()
+            print(response.data[0])
+            selected_urls.append(response.data[0]['url'])
+        
+        return jsonify(selected_urls)
 
     except json.JSONDecodeError:
         return jsonify({"error": "Failed to decode the response from OpenAI"}), 500
     except Exception as e:
         print(f"An error occurred: {e}")
-        return jsonify({"error": "An unexpected error occurred"}), 500    
+        return jsonify({"error": "An unexpected error occurred"}), 500
+    
+        # # Return the array of IDs to the frontend
+        # return jsonify(selected_ids)
+
 
 # @app.route('/test/supabase', methods=['GET'])
 # def test_supabase():
