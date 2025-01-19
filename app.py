@@ -191,8 +191,8 @@ def generation():
     input = data.get("input")
     
 
-
     chat_history_start = ""
+    chat_history_text = ""
 
     # find all instances of chat history related to a persona_id
     response = supabase.table("chat_history").select("*").eq("persona_id", persona_id).execute()
@@ -220,7 +220,7 @@ def generation():
         The history of the conversation leading up to the question is:
         "{chat_history_start}"
 
-        Answer the user's question, focusing on the perspective of {persona.get("name")}. Limit your response to 150 words.
+        Answer the user's question, focusing on the perspective of {persona.get("name")}. Limit your response to 90 words.
         """
         stream = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -228,7 +228,7 @@ def generation():
                 {"role": "system", "content": "You are a helpful assistant who retells a historical event in the perspective of a given character with a given personality."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=200,
+            max_tokens=140,
             temperature=0.9,
             stream=True,
         )
@@ -269,10 +269,10 @@ def generate_character():
 
         HEAD: 41: Face with mouth
         NOSE: 42: A normal Nose
-        EYEBROW: 5: Neutral eyebrows
+        EYEBROW: 5: Neutral eyebr Eyes with distinct mascara, 8: Eyes with distinct mascara, 9: Eyes with a little bit of mascara, 10: Slightly longer generic eyes, 11: Narrowed eyes, seems upset, 12: Squinted smiling eyes, 13: Squinted sad or tired eyes, 14: Cute child-like squinted eyes that are happy, 15: Dizzy or confused eyes like spirals
         TOP: 43: Long sleeve shirt, 44: Short sleeve shirt, 45: Sleeveless shirt with a slight flair at the bottom similar to a dress
         BOTTOM: 1: Long pants, 2: Short pants, 3: A short skirt that flares outwards
-        HAIR (optional): 24: Generic short hairstyle for males, 29: Mid-length hairstyle for women, with bangs
+        HAIR (optional): 24: Generic short hairstyle for males, 25: Short slick back male hairstyle exposing the forehead, 27: Slightly longer hairstyle for boys covering the forehead slightly emo, 28: Slightly longer hairstyle for boys covering the forehead more boyish, 26: Buzz cut, 29: Mid-length hairstyle for women with bangs, 30: Curtain bangs and a high bun, 33: Short hairstyle for women similar to a shag, 34: Bangs and a ponytail tied with a bow
         FACIALHAIR (optional): 16: Horseshoe mustache, 18: Mustache and beard
         HAT (optional): 35: Crown, 36: Baseball cap
         GLASSES (optional): 23: Glasses
