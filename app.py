@@ -260,7 +260,7 @@ def generate_character():
         # Generate character description
         prompt = f"""
         You are designing {character_name} from the event {event_name}.
-        Every character must include the following components: HEAD, NOSE, EYEBROW, TOP, BOTTOM. 
+        Every character must include the following components: HEAD, NOSE, EYEBROW, TOP, BOTTOM, EYES. 
         The following components are optional: HAIR, FACIALHAIR, HAT, GLASSES.
 
         Focus only on the character's literal, physical appearance. Do not consider symbolic meanings, metaphors, or cultural associations when selecting components.
@@ -269,7 +269,8 @@ def generate_character():
 
         HEAD: 41: Face with mouth
         NOSE: 42: A normal Nose
-        EYEBROW: 5: Neutral eyebr Eyes with distinct mascara, 8: Eyes with distinct mascara, 9: Eyes with a little bit of mascara, 10: Slightly longer generic eyes, 11: Narrowed eyes, seems upset, 12: Squinted smiling eyes, 13: Squinted sad or tired eyes, 14: Cute child-like squinted eyes that are happy, 15: Dizzy or confused eyes like spirals
+        EYEBROW: 5: Neutral eyebrow
+        EYES: 8: Eyes with distinct mascara, 9: Eyes with a little bit of mascara, 10: Slightly longer generic eyes, 11: Narrowed eyes, seems upset, 12: Squinted smiling eyes, 13: Squinted sad or tired eyes, 14: Cute child-like squinted eyes that are happy, 15: Dizzy or confused eyes like spirals
         TOP: 43: Long sleeve shirt, 44: Short sleeve shirt, 45: Sleeveless shirt with a slight flair at the bottom similar to a dress
         BOTTOM: 1: Long pants, 2: Short pants, 3: A short skirt that flares outwards
         HAIR (optional): 24: Generic short hairstyle for males, 25: Short slick back male hairstyle exposing the forehead, 27: Slightly longer hairstyle for boys covering the forehead slightly emo, 28: Slightly longer hairstyle for boys covering the forehead more boyish, 26: Buzz cut, 29: Mid-length hairstyle for women with bangs, 30: Curtain bangs and a high bun, 33: Short hairstyle for women similar to a shag, 34: Bangs and a ponytail tied with a bow
